@@ -4,10 +4,4 @@ title: About Me
 permalink: /about/
 ---
 
-This is where you put the contents of your *About* page. Like all your pages, it's in [Markdown](https://guides.github.com/features/mastering-markdown/) format.
-
-This website is powered by **[fastpages](https://github.com/fastai/fastpages)** [^1].
-
-
-
-[^1]:a blogging platform that natively supports Jupyter notebooks in addition to other formats.
+I am an Assistant Professor of Economics at the University of Quebec at Montreal. I study macroeconomic productivity and the allocation of resources across firms. I obtained my PhD in Economics from the Paris School of Economics - Paris 1 University, with a fellowship from the Center For Research in Economics and Statistics.
