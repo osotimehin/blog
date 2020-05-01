@@ -125,7 +125,7 @@ window.onload = wrap_img;
     <ul class="section-nav">
 <li class="toc-entry toc-h2"><a href="#Introduction">Introduction </a></li>
 <li class="toc-entry toc-h2"><a href="#Methodology">Methodology </a></li>
-<li class="toc-entry toc-h2"><a href="#Results:-Risk-exposure-across-sectors">Results: Risk exposure across sectors </a>
+<li class="toc-entry toc-h2"><a href="#Risk-exposure-across-sectors">Risk exposure across sectors </a>
 <ul>
 <li class="toc-entry toc-h3"><a href="#Health-risk">Health risk </a></li>
 <li class="toc-entry toc-h3"><a href="#Economic-risk">Economic risk </a></li>
@@ -166,8 +166,8 @@ window.onload = wrap_img;
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>The covid-19 pandemic poses great public health and economic challenges to countries around the world. Slowing down the spread of the pandemic requires implementing social distancing measures that disrupt economic activity. At the same time, some activities need to be maintained, which puts workers in these sectors at risk of contracting the virus. How does the workers' exposure to these health and economic risks vary across sectors? How do
-these risks propagate across sectors?</p>
+<p>The covid-19 pandemic poses great public health and economic challenges to countries around the world. Slowing down the spread of the pandemic requires implementing social distancing measures that disrupt economic activity. At the same time, some activities need to be maintained, which puts workers in these sectors at risk of contracting the virus.</p>
+<p>How does the workers' exposure to these health and economic risks vary across sectors? Answering that question involves understanding not only how sectors vary in their direct exposure to both types of risk but also in their indirect exposure, through supply chains and demand linkages—the intricate network that constitutes the macroeconomy.</p>
 
 </div>
 </div>
@@ -199,7 +199,7 @@ can serve and because customers will most likely avoid these establishments unti
 or a treatment becomes available.</p>
 </li>
 </ul>
-<p>The methodology is based on a simple input-output framework, calibrated on data from the World Input Output
+<p>The methodology is based on a simple input-output framework, with both supply and demand links, calibrated on data from the World Input Output
 Database. We describe the methodology in detail in the <a href="https://github.com/osotimehin/blog/tree/master/doc/CascadingRisks_wp.pdf">working paper</a>.</p>
 <ul>
 <li>
@@ -208,6 +208,9 @@ to maintain the pre-pandemic household consumption in essential goods and servic
 </li>
 <li>
 <p>We measure the <strong>economic risk</strong> as the decline in employment following a 90% drop in household demand for social consumption. We assume that the household retail purchases of agricultural, food and chemical products remain at their pre-pandemic levels.</p>
+</li>
+<li>
+<p>We calculate the country-level risk as the employment-weighted average of the sectoral risk indicator.</p>
 </li>
 <li>
 <p>Note that some parameters (share of online trade, share of passenger transportation, and share of transportation devoted to agricultural, food and chemical products) are calibrated on US data; The results for other countries should be interpreted with this caveat in mind.</p>
@@ -220,9 +223,11 @@ to maintain the pre-pandemic household consumption in essential goods and servic
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Results:-Risk-exposure-across-sectors">
-<a class="anchor" href="#Results:-Risk-exposure-across-sectors" aria-hidden="true"><span class="octicon octicon-link"></span></a>Results: Risk exposure across sectors<a class="anchor-link" href="#Results:-Risk-exposure-across-sectors"> </a>
+<h2 id="Risk-exposure-across-sectors">
+<a class="anchor" href="#Risk-exposure-across-sectors" aria-hidden="true"><span class="octicon octicon-link"></span></a>Risk exposure across sectors<a class="anchor-link" href="#Risk-exposure-across-sectors"> </a>
 </h2>
+<p>We report here the health and economic-risk measure by country. Select the country of your choice, and for the economic-risk measure, you can select either the scope of the shutdown: either one of the social-consumption sectors or all of them.</p>
+
 </div>
 </div>
 </div>
