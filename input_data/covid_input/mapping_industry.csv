@@ -1,0 +1,36 @@
+﻿"matlabcode","indname","essential"
+1,"agr",1 
+2,"mining",0 
+3,"food",1 
+4,"textile",0
+5,"wood",0
+6,"paper",0
+7,"petrol",0
+8,"chemical",1 
+9,"rubber",0
+10,"mineral prod.",0
+11,"metal",0
+12,"machinery",0
+13,"elec equip.",0
+14,"transp equip.",0
+15,"manuf,nec",0
+16,"utilities",1 
+17,"constr.",0
+18,"sale motor",0
+19,"wholesale",0
+20,"retail",0
+21,"hotels & rest.",0
+22,"inland transp.",0
+23,"water transp.",0
+24,"air transp.",0
+25,"aux. transp.",0
+26,"post & telecom.",1 
+27,"finance",1 
+28,"real estate",0
+29,"m&eq",0
+30,"public admin",1 
+31,"education",0
+32,"health",1 
+33,"social ",0
+34,"households ",0
+35,"placeholder",0
