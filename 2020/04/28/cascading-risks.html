@@ -114,7 +114,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      3 min read
+      4 min read
     
 </span></p>
 
@@ -126,6 +126,7 @@ window.onload = wrap_img;
   <div class="post-content e-content" itemprop="articleBody">
     <ul class="section-nav">
 <li class="toc-entry toc-h2"><a href="#Introduction">Introduction </a></li>
+<li class="toc-entry toc-h2"><a href="#Measuring-how-risks-cascade-across-sectors">Measuring how risks cascade across sectors </a></li>
 <li class="toc-entry toc-h2"><a href="#Methodology">Methodology </a></li>
 <li class="toc-entry toc-h2"><a href="#How-risk-varies-by-sector-in-43-countries">How risk varies by sector in 43 countries </a>
 <ul>
@@ -177,6 +178,30 @@ window.onload = wrap_img;
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Measuring-how-risks-cascade-across-sectors">
+<a class="anchor" href="#Measuring-how-risks-cascade-across-sectors" aria-hidden="true"><span class="octicon octicon-link"></span></a>Measuring how risks cascade across sectors<a class="anchor-link" href="#Measuring-how-risks-cascade-across-sectors"> </a>
+</h2>
+<p>We provide a measure of each sector's exposure to the health and
+economic risks for 43 countries. We study how risks cascade from the two groups of workers hardest hit by the pandemic.</p>
+<ul>
+<li>
+<p>The first group bears a higher health risk than other workers. These are people who continue working in lockdowns to provide <strong>essential goods and services</strong>, such as health care, food or pharmaceutical products.</p>
+</li>
+<li>
+<p>The second group bears a higher economic risk than other workers. These are people working in establishments providing services to the public, such as stores, restaurants,
+or cinemas. These sectors, which we term <strong>social consumption sectors</strong>, face an unprecented disprution in their activities.</p>
+</li>
+<li>
+<p>Because sectors are connected through supply chains and demand linkages, workers in other sectors are exposed to those same risks, albeit to a different extent. For instance, ensuring that households have access to food during the pandemic requires to keep open not only food manufacturers but also establishments in the packaging industry and the other suppliers of food manufacturers. In addition to these supply chains effect, the health risk cascades also through demand linkages. Food products are purchased in stores and need to be delivered to those stores. The demand for food generates a demand for wholesale, retail and transportation services, which puts workers in these sectors also at health risk. The same types of linkages propagates the economic risk across sectors.</p>
+</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Methodology">
 <a class="anchor" href="#Methodology" aria-hidden="true"><span class="octicon octicon-link"></span></a>Methodology<a class="anchor-link" href="#Methodology"> </a>
 </h2>
@@ -186,37 +211,15 @@ window.onload = wrap_img;
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>We provide a measure of each sector's exposure to the health and
-economic risks for 43 countries. We study how risks cascade from the two groups of workers hardest it by the pandemic.</p>
-<ul>
-<li>
-<p>The first group  bears a higher health risk than other workers. These are people working in sectors providing <strong>essential goods and services</strong>, such as health care, food or pharmaceutical products. At the risk of being infected, those workers are asked to continuing working to ensure that the population's essential needs
-are met, even when strict lockdown measures are imposed.</p>
-</li>
-<li>
-<p>The second group bears a higher economic risk than other workers. These are people working in establishments providing services to the public, such as hotels, restaurants,
-or cinemas, which we call <strong>social consumption sectors</strong>. These establishments are likely to operate at low occupancy, even as government-mandated closings are lifted, both because social distancing reduces the number of customers that they
-can serve and because customers will most likely avoid these establishments until a vaccine
-or a treatment becomes available.</p>
-</li>
-</ul>
-<p>The methodology is based on a simple input-output framework, with both supply and demand links, calibrated on data from the World Input Output
+<p>The methodology is based on a simple input-output framework, with both supply and demand linkages, calibrated on data from the World Input-Output
 Database. We describe the methodology in detail in the <a href="https://github.com/osotimehin/blog/tree/master/doc/CascadingRisks_wp.pdf">working paper</a>.</p>
-<ul>
-<li>
 <p>We measure the <strong>health risk</strong> as the proportion of workers needed <em>at the workplace</em>
 to maintain the pre-pandemic household consumption in essential goods and services. We combine the model's result with <a href="https://github.com/jdingel/DingelNeiman-workathome">Dingel and Neiman</a>'s (2020) work-at-home indicator to calculate a lower bound of the proportion of workers needed at the workplace.</p>
-</li>
-<li>
-<p>We measure the <strong>economic risk</strong> as the decline in employment following a 90% drop in household demand for social consumption. We assume that the household retail purchases of agricultural, food and chemical products remain at their pre-pandemic levels, and so do investment and exports.</p>
-</li>
-<li>
-<p>We calculate the country-level risk as the employment-weighted average of the sectoral risk indicator.</p>
-</li>
-<li>
-<p>Note that some parameters (share of online trade, share of passenger transportation, and share of transportation devoted to agricultural, food and chemical products) are calibrated on US data; the results for other countries should be interpreted with this caveat in mind.</p>
-</li>
-</ul>
+<p>We measure the <strong>economic risk</strong> as the decline in employment following a 90% drop in household demand for social consumption. A couple of things to note
+.. We assume that the household retail purchases of agricultural, food and chemical products remain at their pre-pandemic levels.
+.. We focus on the decline in household consumption and therefore investment and exports remain constant. In a next version, we will present results when investment and exports are affected by the shock.</p>
+<p>For both indcators, we calculate the country-level risk as the employment-weighted average of the sectoral risk indicator.</p>
+<p>Note that some parameters (share of online trade, share of passenger transportation, and share of retail and transportation devoted to agricultural, food and chemical products) are calibrated on US data; the results for other countries should be interpreted with this caveat in mind.</p>
 
 </div>
 </div>
@@ -227,7 +230,7 @@ to maintain the pre-pandemic household consumption in essential goods and servic
 <h2 id="How-risk-varies-by-sector-in-43-countries">
 <a class="anchor" href="#How-risk-varies-by-sector-in-43-countries" aria-hidden="true"><span class="octicon octicon-link"></span></a>How risk varies by sector in 43 countries<a class="anchor-link" href="#How-risk-varies-by-sector-in-43-countries"> </a>
 </h2>
-<p>We report the health- and economic-risk measure for 43 countries in a series of interactive graphs.</p>
+<p>We report the health- and economic-risk measure for 43 countries in a series of interactive graphs. These simple measures neglect many important aspects of risk (see working paper), but nonetheless reveal a very stark picture of the disparity in exposure to both types of risk, as well as the importance of including indirect effects.</p>
 <p>In brief, we find that</p>
 <ul>
 <li>About a quarter of the risk exposure is indirect, cascading from the essential and social-consumption sectors through supply and demand linkages.</li>
