@@ -12,3 +12,6 @@ I post here non-technical summaries of my research findings.
 
 email: [contact](mailto:osotimehin.sophie@uqam.ca)
 webpage: https://sites.google.com/site/sosotimehin/
+
+
+Blog produced with https://fastpages.fast.ai/.
