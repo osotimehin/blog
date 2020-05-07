@@ -7,7 +7,7 @@
 # https://learnxinyminutes.com/docs/yaml/
 
 title: Home
-description: Interactive visualizations of economic research papers by Sophie Osotimehin. Produced with https://fastpages.fast.ai/
+description: Interactive visualizations of research findings by Sophie Osotimehin.
 github_username: osotimehin
 # you can comment the below line out if your repo name is not different than your baseurl
 github_repo: "blog"
@@ -55,7 +55,7 @@ show_image: true
 show_tags: true
 
 # Add your Google Analytics ID here if you have one and want to use it
-google_analytics: 
+google_analytics: 'UA-27131797-2'
 
 exclude:
   - docker-compose.yml
