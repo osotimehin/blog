@@ -10,9 +10,8 @@ I study the sources of countries' productivity. I am interested in innovation, a
 
 I post here non-technical summaries of my research findings. 
 
-email: [contact](mailto:osotimehin.sophie@uqam.ca)
+email: [osotimehin.sophie@uqam.ca](mailto:osotimehin.sophie@uqam.ca)
 
 webpage: https://sites.google.com/site/sosotimehin/
 
-
-Blog produced with https://fastpages.fast.ai/.
+Blog produced with https://fastpages.fast.ai/
