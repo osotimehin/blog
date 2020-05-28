@@ -8,10 +8,11 @@ I am Sophie Osotimehin, an Assistant Professor of Economics at the [University o
 
 I study the sources of countries' productivity. I am interested in innovation, as well as in the role of the firms' hiring, investment and intermediate-input decisions for productivity. Recently, I have constructed models to study the effects of labor-market regulation and the consequences of firms' monopoly power on countries' productivity.  
 
-I post here non-technical summaries of my research findings. 
+I post here non-technical summaries of my research findings. This site is in construction. More summaries to come !
+
 
 email: [osotimehin.sophie@uqam.ca](mailto:osotimehin.sophie@uqam.ca)
 
-webpage: https://sites.google.com/site/sosotimehin/
+webpage: https://sites.google.com/site/sosotimehin
 
-Blog produced with https://fastpages.fast.ai/
+Blog produced with https://fastpages.fast.ai
